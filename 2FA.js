@@ -5,7 +5,6 @@ Source : https://www.reddit.com/r/SteamBot/comments/3v72zz/node_small_script_to_
 
 var username;
 var password;
-var steamID;
 var steamCode;
 
 var fs = require("fs");
@@ -23,10 +22,8 @@ rl.question("Username: ", function(name) {
     username = name;
     rl.question("Password: ", function(pass) {
         password = pass;
-        rl.question("Steam ID: ", function(id) {
-            steamID = id;
-            rl.pause();
-            login();
+         rl.pause();
+         login();
         });
     });
 });
