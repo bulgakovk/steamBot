@@ -1,3 +1,8 @@
+/*
+This code was written by somebody from reddit.com
+If you know author - please tell me. I'll add him to description.
+*/
+
 var username;
 var password;
 var steamID;
