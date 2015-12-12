@@ -1,6 +1,6 @@
 /*
-This code was written by somebody from reddit.com
-If you know author - please tell me. I'll add him to description.
+This code was written by /u/-rocky- (https://www.reddit.com/user/-rocky-)
+Source : https://www.reddit.com/r/SteamBot/comments/3v72zz/node_small_script_to_enable_and_confirm_2fa/
 */
 
 var username;
