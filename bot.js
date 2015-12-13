@@ -21,7 +21,7 @@ var manager = new TradeOfferManager({
 var details = {
 	"accountName"   : "YOUR_STEAM_ACCOUNT_NAME",
 	"password"      : "YOUR_PASSWORD",
-	"twoFactorCode" : SteamTotp.generateAuthCode("YOUR_SHARED_SECRET");
+	"twoFactorCode" : SteamTotp.generateAuthCode("YOUR_SHARED_SECRET")
 };
 //Generating device_id
 var hash = require('crypto').createHash('sha1');
