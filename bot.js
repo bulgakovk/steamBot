@@ -6,7 +6,7 @@ var request = require('request');
 //Don't forget to put valid info
 var API_KEY           = ""; // API key from bitskins.com
 var SECRET            = ""; // Secret key from bitskins.com
-var pooling_interval  = 10000; // 10 seconds
+var polling_interval  = 10000; // 10 seconds
 var totp = new TOTP(SECRET);
 var client = new SteamUser();
 
@@ -54,7 +54,7 @@ client.on('loggedOn', function(details){
         //Be carefull with this function.
         setInterval(function(){
             checkConfirmations(steamcommunityMobileConfirmations)
-        }, pooling_interval);
+        }, polling_interval);
         });
     });
 });
