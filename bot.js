@@ -1,7 +1,6 @@
 var SteamUser = require('steam-user');
 var TradeOfferManager = require('steam-tradeoffer-manager');
 var SteamTotp = require('steam-totp');
-var SteamConfirm = require('steamcommunity-mobile-confirmations');
 var TOTP = require('onceler').TOTP;
 var request = require('request');
 //Don't forget to put valid info
