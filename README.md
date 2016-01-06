@@ -16,3 +16,7 @@ You need to install these packages to run bot:
 
 and these to run 2FA activating:
 >steamcommunity
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bulgakovk/steambot/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
