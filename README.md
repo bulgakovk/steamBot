@@ -1,6 +1,9 @@
 # steamBotTemplate
 
+**Please don't create an issue if you need help - join gitter chat. Thanks.**
+
 [![Join the chat at https://gitter.im/bulgakovk/steamBot](https://badges.gitter.im/bulgakovk/steamBot.svg)](https://gitter.im/bulgakovk/steamBot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **What is 2FA.js?**
 >It's script which provides you to enable mobile authentication in Steam.
 
