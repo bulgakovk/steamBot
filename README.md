@@ -3,11 +3,12 @@
 >It's script which provides you to enable mobile authentication in Steam.
 
 **How to use 2FA.js?**
->Be sure that you have **attached mobile number** for your steam accout before doing these steps!
->You can do it [here](store.steampowered.com/account/). You can use one number for several accounts btw.
+>Be sure that you have **attached mobile number** for your steam accout before doing these steps (do it [here](store.steampowered.com/account/)). You can use one number for several accounts btw.
+
 >P.S. I really want to make a simple web-site with activation mobile auth functionality so If you have free VPS or want to become a sponsor - let me know.
 
 >Here are 4 simple steps:
+
 >1)Download 2FA.js file.
 
 >2)Install node package using [npm](https://www.npmjs.com/). Just write this code in console:
@@ -26,20 +27,24 @@
 **What is bot.js?**
 > It's template for your bot. The most important things which it provides for you are login to steam using new Escrow system and accept offers, using automaticly generated codes. **It is not final solution for jackpot or other sites!** But you can do whatever you want using this template.
 
+**Where bot gets items prices?**
+>https://bitskins.com/api
+
 **How to run bot.js**
+>Don't forget to change login/password and all secrets in source!
 >Install these node packages using [npm](https://www.npmjs.com/):
 
->steam-user
+>>steam-user
 
->steam-tradeoffer-manager
+>>steam-tradeoffer-manager
 
->steam-totp
+>>steam-totp
 
->steamcommunity-mobile-confirmations
+>>steamcommunity-mobile-confirmations
 
->onceler
+>>onceler
 
->request
+>>request
 
 Hope this info will be usefull. You can thank me [donating something in Steam](https://steamcommunity.com/tradeoffer/new/?partner=174080709&token=CXrk9SB9). I really appreciate it!
 
