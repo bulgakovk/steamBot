@@ -51,7 +51,4 @@
 
 >>request
 
-Notify me about grammar/syntax mistakes in issues please.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bulgakovk/steambot/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
