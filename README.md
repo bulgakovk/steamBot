@@ -51,8 +51,6 @@
 
 >>request
 
-Hope this info will be usefull. You can thank me [donating something in Steam](https://steamcommunity.com/tradeoffer/new/?partner=174080709&token=CXrk9SB9). I really appreciate it!
-
 Notify me about grammar/syntax mistakes in issues please.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bulgakovk/steambot/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
