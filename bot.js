@@ -16,19 +16,15 @@ var manager = new TradeOfferManager({
     "language" : "en"
 })
 
-
 var details = {
 	"accountName"   : "YOUR_STEAM_ACCOUNT_NAME",
 	"password"      : "YOUR_PASSWORD",
 	"twoFactorCode" : SteamTotp.generateAuthCode("YOUR_SHARED_SECRET")
 };
-//Generating device_id
-var hash = require('crypto').createHash('sha1');
-hash.update(Math.random().toString());
-hash = hash.digest('hex');
-var device_id = 'android:' + hash;
-
 client.logOn(details);
+
+//Generating device_id
+var device_id = SteamTotp.getDeviceID("SteamID");
 
 client.on('loggedOn', function(details){
     console.log("Logged ON!");
