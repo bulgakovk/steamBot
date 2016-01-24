@@ -28,7 +28,9 @@ var device_id = SteamTotp.getDeviceID("SteamID");
 
 client.on('loggedOn', function(details){
     console.log("Logged ON!");
-    client.on('webSession', function(sessionID, cookies){
+});
+
+client.on('webSession', function(sessionID, cookies){
         //Setting manager
         manager.setCookies(cookies, function(err) {
         if(err) {
@@ -51,10 +53,9 @@ client.on('loggedOn', function(details){
         setInterval(function(){
             checkConfirmations(steamcommunityMobileConfirmations)
         }, polling_interval);
-        });
-    });
+	});
 });
-
+    
 manager.on('newOffer', function(offer) {
     offer.getEscrowDuration(function(err, daysTheirEscrow, daysMyEscrow){
         if (err) console.log(err);
